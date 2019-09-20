@@ -12,6 +12,13 @@
 ## Objectives and Main Tasks
   *List the objectives of the modelling, as well as a summary of the project structure and tasks completed*
 
+## Basin Meta-data
+*Include a link to the MESH Wiki "Basin Meta-data" page, if created. Otherwise, link to a "Basin_Metadata.md" file in the "Site" folder
+
+[Basin Meta-data on MESH Wiki Page](https://wiki.usask.ca/display/MESH/Basin+Meta-data)
+
+[Basin Meta-data File](https://github.com/HaleyBrauner/MESH_Repo_Template/blob/master/Site/BasinMetaData.md)
+
 ## Progress / Conclusion
 *Include periodic updates on the modelling progress here, or even just "in progress"*
 *Include the main findings of the modelling, and further recommendations*
@@ -21,9 +28,8 @@
 - Related research papers and other information (theory, parameter selection, etc.); could include a copy in Model>Justification folder
 - Manuals (ex. CLASS, Ostrich, MESH Wiki, other)
 
-## MESH CODE DESCRIPTION:
-**
-
+___
+___
 ## Folder Structure
 
 ### Code
@@ -70,3 +76,4 @@ Presentations
 - Maps
 - PhotosVideos
 - Reports
+- Site Meta-data
