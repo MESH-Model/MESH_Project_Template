@@ -1,4 +1,12 @@
+**This repository is a template for individual MESH modelling project repositories, which contain information about a basin and modelling activities conducted using MESH.**
 
+To create a new basin repository:
+1. Click "Use this template" from the MESH_Project_Template repository page
+
+![](./UseTemplate.JPG)
+2. Name the new repository "MESH_Project_<Watershed Name>" (ex. "MESH_Project_Baker_Creek")
+
+3. Update the main "ReadMe.md" document with project-specific information, and populate the folders.
 
 # Project Title
 
