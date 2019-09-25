@@ -1,6 +1,6 @@
 *Note: the wiki includes a Page Template Wizard for the basin meta data*
 
-# Basin Name
+# <Basin Name>
 
 ## General information
 
@@ -46,6 +46,7 @@ Details (i.e. climate variables available, data frequency or areal coverage, oth
 Used?
 *State whether or not used in the project, and why / why not*
 
+## Data Preparation Methodology
 
 ## Model Configurations
 
