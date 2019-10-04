@@ -25,7 +25,7 @@ To create a new basin repository:
 ## Basin Meta-data
 *Include a link to the MESH Wiki "Basin Meta-data" page, if created. Otherwise, link to a "Basin_Metadata.md" file in the "Site" folder
 
-[Basin Meta-data on MESH Wiki Page](https://wiki.usask.ca/display/MESH/Basin+Meta-data)
+[Basin Meta-data on MESH Wiki Page](https://wiki.usask.ca/display/MESH/Basin+Meta-data) *Update to go directly to the basin page*
 
 [Basin Meta-data File](https://github.com/HaleyBrauner/MESH_Repo_Template/blob/master/Site/BasinMetaData.md)
 
@@ -85,5 +85,4 @@ Presentations
 ### Site
 - Maps
 - PhotosVideos
-- Reports
 - Site Meta-data
