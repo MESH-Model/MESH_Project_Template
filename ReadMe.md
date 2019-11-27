@@ -48,65 +48,56 @@ ___
 # Folder Structure
 Given the file size limitations of GitHub, only smaller files are stored here and the rest are stored on Graham. The files can be synced with the local machine via the respective push/pull bash scripts included in the Data/Raw and Model folders.
 
-Fore reference, the general rule for file sizes on GitHub is:
-- Repositories should be < 1 GB
-- Files must be < 100 MB
-
 ## Code
 - Includes pre- and post-processing scripts used in the project
 
 ## Data
 
 ### Raw
-- Includes data downloaded from ECCC using R, ESSD data (Spence & Hedstrom, 2018), GEM and CaPA data, and WSC streamflow (downloaded manually, though this should be done with an R script)
+- Include raw data files here. It is best to change the permissions to "Read Only".
 
 ### Processed
-- Includes processed driving data, spatial data (for use in Green Kenue to generate the r2c file for Scenario 3), and streamflow data used for validation
+- Includes processed driving data, spatial data, and validation data (ex. streamflow).
 
 #### Driving
-- Processed driving data used in the model
-  - One set used for Scenario 1
-  - One set used for Scenarios 2 and 3
-    - Note: this is the same data as Scenario 1, but copied to 6 columns -> one per GRU
-- Scripts used to generate the Scenario 1 file are included in the "Code" folder
+- *Processed driving data used in the model*
+- *Scripts used to generate the files should be included in the "Code" folder*
 
 #### Spatial
-- Green Kenue files used to generate the r2c file for Scenario 3
+- *Ex. GIS files, Green Kenue files*
 
 #### Validation
-- Streamflow data, including the full period, calibration period (all other values set as negative), and validation period (all other values set as negative)
+- *ex. streamflow*
 
 ## Model
-*Includes "MESH Modelling Journal.docx", which is notes kept during the modelling.  
-Also includes a "ReadMe.md" file which describes the differences between the model scenarios.*
+- *The ReadMe files should give an overview of the modelling methodology, as well as the differences between scenarios/runs*
+- *Include model notes in this main "Model" folder, as available*
 
 ### Justification
-- Include an Excel (xlsx) file outlining the parameters and ranges used in the model and rationale for their use (with references listed).
-- Also includes the equation used in scaling wind observations from near-surface to reference height (which was 40m)
+- *Include files related to scenario configuration choice, parameter selection, initial conditions, etc.*
 
 ### MESH_Code
-- Holds the MESH code used for running the mode
-  - MESH_Code.r1024 was used for Scenarios 1, 2, and 3 of the modelling project
-  - r1552_mod was used for Scenarios 1-P and 2-P
-  - No modifications were made to the code
+- *Holds the MESH code used for running the mode; use a new folder for each version (include the version as a suffix)*
+- *If any modification of the code were made, or more than one version was used, include a text file listing the MESH code versions, the main differences and reason for use, and details of the modifications*
 
 ### Ostrich
-- This folder contains a copy of the Ostrich program (uncompiled).
+- *This folder contains a copy of the Ostrich program (uncompiled); be sure to put the compiled file in .gitignore*
 
-### Scenario_*
+### ConfigurationX*
 *1 folder for each configuration, each with input and output sub-folders*
 
 - Input  
-  - *Includes the MESH inputs files, driving data, and scripts for the model configuration*
+  - *Includes the MESH inputs files, driving data files / symbolic links, and scripts for running the model*
 
 - Output
   - *Includes the output files for the model configuration / each run*
 
 ## Presentations
-*Contains the final powerpoint presenation and the draft project report (final pdf yet to be released)*
+- *Contains powerpoint (or similar), poster, or other presentations or reports related to the project (formal or otherwise)*
 
 ## Site
-Includes:
+*Can include:
 - Maps
 - PhotosVideos
 - Site Meta-data
+- etc.*
